@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background:#282828; 
+}
+
+h1{
+    font-size: 6rem;
+    color: #227227;
+    text-shadow:3px 0 rgb(248, 9, 9);
+    justify-content: center;
+    text-align: center;
+}
+
+.set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    width: 210vh;
+}
+
+.drum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(33.333%);
+    background: radial-gradient(#e1783e, #af1616);
+    border-radius: 15px;
+
+}
+.pressed{
+    box-shadow: 0 3px 0 rgb(185, 155, 34);
+    opacity: 0 6;
+}
+
+.W{
+    background-image: url("images/Tom.PNG");
+}
+
+/* @media(max-width:1000px){
+    .drum{
+    width: 350px;
+    height: 200px;
+  text-align: center;
+  margin: 10px 10px 10px 323px;
+      display: block;
+    }
+  } */
